@@ -1,0 +1,102 @@
+.App {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+.App a {
+  text-decoration: none;
+  color: rgb(12, 110, 194);
+}
+
+.pageHeader {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 20px rgb(92, 92, 92);
+  padding: 8px 0px;
+  top: 0;
+  position: sticky;
+  z-index: 6;
+}
+
+.pageHeaderContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.logo {
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+  margin-right: auto;
+  font-weight: 600;
+}
+
+.logo home {
+  cursor: pointer;
+}
+
+.primaryNav {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.headerLinks {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+
+.headerLinks img {
+  width: 20px;
+}
+
+.headerLinks about, projects, contact, theme {
+  margin: 0 0 0 40px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 467px) {
+
+  .pageHeader {
+      background-color: rgb(239, 249, 255);
+      box-shadow: 0px 2px 20px rgb(47, 47, 47);
+      padding: 8px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+      position: sticky;
+      z-index: 6;
+  }
+
+  .primaryNav {
+      color: rgb(12, 110, 194);
+      display: flex;
+      /* align-items: center; */
+      /* justify-content: center; */
+      /* align-content: center;
+      align-self: center; */
+      /* align-items: center; */
+      /* margin-left: auto; */
+      margin: 0 auto;
+      /* margin-right: 50px; */
+  
+  }
+
+  .headerLinks li {
+      margin: 0 20px 0 20px;
+  }
+
+  .logo {
+      display: none;
+  }
+}
