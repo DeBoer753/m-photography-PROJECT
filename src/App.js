@@ -1,6 +1,6 @@
 // REACT:
 import { useRef } from "react";
-// import { Link, Router, Route, Routes } from 'react-router-dom'
+import { Link, Router, Route, Routes } from 'react-router-dom'
 
 // COMPONENTS:
 import IntroArt from "./components/1-IntroArt/IntroArt";
@@ -73,8 +73,10 @@ export default function App() {
       <section ref={contact}>
         <MyLinks />
       </section>
-
-
+      <Routes>
+        <Route path="/landscape" element={<Landscape/>}/>
+      </Routes>
     </div>
+    
   )
 }
