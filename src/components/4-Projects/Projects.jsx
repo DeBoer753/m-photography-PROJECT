@@ -1,6 +1,6 @@
 // REACT:
 import React from 'react'
-import { Link, Router, Route, Routes, Switch } from 'react-router-dom'
+import { Route, Routes, Link } from 'react-router-dom'
 
 // COMPONENTS:
 import Landscape from './4a-Landscape/Landscape'
@@ -76,9 +76,6 @@ export default function Projects() {
                     </div>
                 </div>
             </section>
-            {/* <Routes>
-                <Route path='/landscape' element={<Landscape />} />
-            </Routes> */}
         </div>
     )
 }
