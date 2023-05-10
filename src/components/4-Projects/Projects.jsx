@@ -1,6 +1,6 @@
 // REACT:
 import React from 'react'
-// import { Link, Router, Route, Routes, Switch } from 'react-router-dom'
+import { Link, Router, Route, Routes, Switch } from 'react-router-dom'
 
 // COMPONENTS:
 import Landscape from './4a-Landscape/Landscape'
@@ -29,7 +29,7 @@ export default function Projects() {
                             surroundings, as you search for the perfect shot. Landscape photography can be a relaxing and 
                             therapeutic activity, as you immerse yourself in nature and focus on the present moment.</p>
                         <p>
-                            {/* <Link to='/landscape'><button className={styles.projectButtons}>View / Buy</button></Link> */}
+                            <Link to='/landscape'><button className={styles.projectButtons}>View / Buy</button></Link>
                         </p>
                     </div>
                 </div>
@@ -76,9 +76,9 @@ export default function Projects() {
                     </div>
                 </div>
             </section>
-            {/* <Routes>
+            <Routes>
                 <Route path='/landscape' element={<Landscape />} />
-            </Routes> */}
+            </Routes>
         </div>
     )
 }
