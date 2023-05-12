@@ -1,6 +1,5 @@
 // REACT:
 import { useRef } from "react";
-import { Route, Routes } from 'react-router-dom'
 
 // COMPONENTS:
 import IntroArt from "./components/1-IntroArt/IntroArt";

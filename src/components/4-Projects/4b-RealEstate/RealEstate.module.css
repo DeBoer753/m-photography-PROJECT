@@ -64,7 +64,7 @@
   border: red solid 1px;
 }
 
-.landscapes {
+/* .landscapes {
   background-color: rgb(255, 255, 255);
   padding: 100px 0; 
   display: flex;
@@ -72,7 +72,45 @@
   gap: 50px;
   padding: 30px 50px 80px 50px;
   border: red solid 1px;
+} */
+
+/* SLIDE TUTORIAL -------------------------------*/
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.image {
+  width: 600px;
+  height: 1000px;
+  border-radius: 10px;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+/* ------------------------------- */
 
 .imgsLandscape {
   width: 370px;
