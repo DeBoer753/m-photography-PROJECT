@@ -73,11 +73,7 @@ export default function App() {
       <section ref={contact}>
         <MyLinks />
       </section>
-        <Routes>
-          <Route path="/landscape" element={<Landscape />}/>
-        </Routes>
     </div>
-
     
   )
 }
