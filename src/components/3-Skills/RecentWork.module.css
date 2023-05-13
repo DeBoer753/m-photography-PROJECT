@@ -1,0 +1,59 @@
+/* RECENT WORK HEADER ----------------> */
+.recentWorkHeaderBox {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(194, 0, 165) solid;
+}
+.recentWorkHeaderBox h1 {
+    color:#000000;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px 40px;
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+    border: 1px rgb(194, 0, 165) solid;
+}
+
+/* RECENT WORK BACKGROUND ----------------> */
+.recentWorkMain {
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 0 0;
+    padding: 0 0 20px 0;
+    border: 1px rgb(10, 194, 0) solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* RECENT WORK CONTENT ----------------> */
+.recentWorkContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.recentWorkContent div {
+    border: 1px blue solid;
+    width: 1100px;
+    height: 300px;
+    overflow: hidden;
+}
+.recentWorkContent img {
+    max-width: 1100px;
+    max-height: 1000px;
+    object-fit: contain;
+    position:relative;
+    bottom: 150px;
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 467px) {
+
+    .recentWorkHeader {
+        text-align: center;
+    }
+}

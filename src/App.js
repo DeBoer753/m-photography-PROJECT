@@ -3,13 +3,11 @@ import { useRef } from "react";
 
 // COMPONENTS:
 import IntroArt from "./components/1-IntroArt/IntroArt";
-import About from "./components/2-About/About";
-import Skills from "./components/3-Skills/Skills";
+import Services from "./components/2-About/Services";
+import RecentWork from "./components/3-Skills/RecentWork";
 import Projects from "./components/4-Projects/Projects";
 import Contact from "./components/5-Contact/Contact";
 import MyLinks from "./components/6-MyLinks/MyLinks";
-
-import Landscape from "./components/4-Projects/4a-Landscape/Landscape";
 
 // IMGS:
 import midnightIcon from "./imgs/midnightIcon.jpg"
@@ -42,13 +40,13 @@ export default function App() {
       <header className={styles.pageHeader}>
         <div className={styles.pageHeaderContent}>
           <div className={styles.logo}>
-            <home onClick={scrollToHome}>Myles DeBoer</home>
+            <home onClick={scrollToHome}>Made In Marin Media</home>
           </div>
           <nav className={styles.primaryNav}>
             <ul className={styles.headerLinks}>
-              <about onClick={scrollToAbout}>About</about>
-              <projects onClick={scrollToProjects}>Work</projects>
-              <contact onClick={scrollToContact}>Services</contact>
+              <about>About</about>
+              <projects>Work</projects>
+              <contact>Services</contact>
               <theme><img src={midnightIcon} alt="" border="0" /></theme>
             </ul>
           </nav>
@@ -58,12 +56,12 @@ export default function App() {
         <IntroArt />
       </section>
       <section ref={about}>
-        <About />
+        <Services />
       </section>
       <section >
-        <Skills />
+        <RecentWork />
       </section>
-      <section ref={projects}>
+      {/* <section ref={projects}>
         <Projects />
       </section>
       <section>
@@ -71,7 +69,7 @@ export default function App() {
       </section>
       <section ref={contact}>
         <MyLinks />
-      </section>
+      </section> */}
     </div>
     
   )
