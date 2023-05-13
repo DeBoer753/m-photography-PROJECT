@@ -36,18 +36,20 @@ export default function App() {
   
   return (
     
-    <div className={styles.App}>
+    <main className={styles.App}>
       <header className={styles.pageHeader}>
         <div className={styles.pageHeaderContent}>
           <div className={styles.logo}>
-            <home onClick={scrollToHome}>Made In Marin Media</home>
+            <div onClick={scrollToHome}>Made In Marin Media</div>
           </div>
           <nav className={styles.primaryNav}>
             <ul className={styles.headerLinks}>
-              <about>About</about>
-              <projects>Work</projects>
-              <contact>Services</contact>
-              <theme><img src={midnightIcon} alt="" border="0" /></theme>
+              <li>Services</li>
+              <li>Work</li>
+              <li>Reviews</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li><img src={midnightIcon} alt="" border="0" /></li>
             </ul>
           </nav>
         </div>
@@ -70,7 +72,7 @@ export default function App() {
       <section ref={contact}>
         <MyLinks />
       </section> */}
-    </div>
+    </main>
     
   )
 }

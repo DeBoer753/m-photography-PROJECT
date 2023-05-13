@@ -32,9 +32,11 @@
   margin-left: 50px;
   margin-right: auto;
   font-weight: 600;
+  font-family: cursive;
+  font-size: 20px;
 }
 
-.logo home {
+.logo div {
   cursor: pointer;
 }
 
@@ -56,7 +58,7 @@
   width: 20px;
 }
 
-.headerLinks about, projects, contact, theme {
+.headerLinks li {
   margin: 0 0 0 40px;
   text-decoration: none;
   color: rgb(0, 0, 0);

@@ -14,7 +14,7 @@
     border: 1px rgb(194, 0, 165) solid;
 }
 
-/* RECENT WORK BACKGROUND ----------------> */
+/* RECENT WORK MAIN ----------------> */
 .recentWorkMain {
     background-color: rgb(255, 255, 255);
     margin: 0 0 0 0;
@@ -22,10 +22,9 @@
     border: 1px rgb(10, 194, 0) solid;
     display: flex;
     flex-direction: column;
-
 }
 
-/* RECENT WORK CONTENT ----------------> */
+/* RECENT WORK CONTENT & MAIN ----------------> */
 .recentWorkContent {
     display: flex;
     justify-content: center;
@@ -35,20 +34,104 @@
     margin: 0 auto;
 }
 .recentWorkContent div {
-    border: 1px blue solid;
-    width: 1100px;
-    height: 300px;
+    display: inline-block;
     overflow: hidden;
+    max-width: 1100px;
+    max-height: 300px;
+    margin: 0 20px 0 20px;
+    
+    /* overlay tutorial */
+    position: relative;
 }
 .recentWorkContent img {
-    max-width: 1100px;
-    max-height: 1000px;
-    object-fit: contain;
-    position:relative;
-    bottom: 150px;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
     width: 100%;
+    /* opacity: 1;
+    transition: opacity 0.3s ease-in-out; */
+}
+    /* .recentWorkContent img:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    } */
+
+/* RECENT WORK CONTENT & MAIN ----------------> */
+.recentWorkContent .imageOverlay {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    align-self: flex-end;
+}
+.recentWorkMain .imageOverlay div {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: #000000;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.recentWorkMain .imageOverlay div div {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: #000000;
+    width: 100%;
+    /* border: 1px red solid; */
+
+    margin: 0 0 0 0;
 }
 
+.recentWorkMain h2 {
+    /* border: 1px red solid; */
+    margin: 0 0 0 10px;
+}
+.recentWorkMain .logo {
+    /* border: 1px red solid; */
+    align-self: flex-end;
+    text-align: right;
+    width: 120px;
+}
+.recentWorkMain p {
+    /* border: 1px red solid; */
+    font-size: 13px;
+    margin: 10px 0 10px 10px;
+}
+
+.recentWorkContent .imageOverlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+    
+.recentWorkMain button {
+    width: 150px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+
+    background-color: #39bff9; 
+    background-image: linear-gradient(75deg, #4abdff, #0f62ce, #167ed2, #4abdff); 
+    background-size: 300% ;
+    background-position: left;
+    transition: 300ms background-position ease-in-out;
+}
+.recentWorkMain button:hover {
+    background-position: right;
+
+}
 
 
 @media only screen and (min-width: 280px) and (max-width: 467px) {
