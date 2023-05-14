@@ -2,10 +2,10 @@
 import { useRef } from "react";
 
 // COMPONENTS:
-import IntroArt from "./components/1-IntroArt/IntroArt";
-import Services from "./components/2-About/Services";
-import RecentWork from "./components/3-Skills/RecentWork";
-import Projects from "./components/4-Projects/Projects";
+import IntroBackground from "./components/1-IntroBackground/IntroBackground";
+import Services from "./components/2-Services/Services";
+import RecentWork from "./components/3-RecentWork/RecentWork";
+import Testimonials from "./components/4-Testimonials/Testimonials";
 import Contact from "./components/5-Contact/Contact";
 import MyLinks from "./components/6-MyLinks/MyLinks";
 
@@ -21,18 +21,6 @@ export default function App() {
   const scrollToHome = () => {
     home.current?.scrollIntoView({behavior: 'smooth'})
   }
-  const about = useRef(null);
-  const scrollToAbout = () => {
-    about.current?.scrollIntoView({behavior: 'smooth'})
-  }
-  const projects = useRef(null) 
-  const scrollToProjects = () => {
-    projects.current?.scrollIntoView({behavior: 'smooth'})
-  }
-  const contact = useRef(null)
-  const scrollToContact = () => {
-    contact.current?.scrollIntoView({behavior: 'smooth'})
-  }
   
   return (
     
@@ -40,7 +28,7 @@ export default function App() {
       <header className={styles.pageHeader}>
         <div className={styles.pageHeaderContent}>
           <div className={styles.logo}>
-            <div onClick={scrollToHome}>Made In Marin Media</div>
+            <div onClick={scrollToHome}>Chris Blossom Media</div>
           </div>
           <nav className={styles.primaryNav}>
             <ul className={styles.headerLinks}>
@@ -55,18 +43,18 @@ export default function App() {
         </div>
       </header> 
       <section ref={home}> 
-        <IntroArt />
+        <IntroBackground />
       </section>
-      <section ref={about}>
-        <Services />
+      <section>
+        <Services /> 
       </section>
       <section >
         <RecentWork />
       </section>
-      {/* <section ref={projects}>
-        <Projects />
-      </section>
       <section>
+        <Testimonials />
+      </section>
+      {/* <section>
         <Contact />
       </section>
       <section ref={contact}>

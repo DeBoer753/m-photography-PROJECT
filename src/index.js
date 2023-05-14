@@ -5,8 +5,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Landscape from './components/4-Projects/4a-Landscape/Landscape';
-import RealEstate from './components/4-Projects/4b-RealEstate/RealEstate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,8 +12,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/landscape" element={<Landscape />} />
-        <Route path="/realestate" element={<RealEstate />} />
+        {/* <Route path="/landscape" element={<Landscape />} />
+        <Route path="/realestate" element={<RealEstate />} /> */}
       </Routes> 
     </BrowserRouter>
   </React.StrictMode>
