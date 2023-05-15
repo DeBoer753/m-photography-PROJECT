@@ -10,20 +10,20 @@ export default function Services() {
         <div>
 
             <div className={styles.servicesHeaderBox}>
-                <h1 id="about">Services</h1> {/*AUTO SCROLL ON CLICK FROM NAVABAR*/}
+                <h1>Services</h1>
             </div>
 
-            <section className={styles.servicesMain}>
+            <main className={styles.servicesMain}>
                 <div className={styles.servicesContent}>
-                    <div>
+                    <section>
                         <img src={capeCod} alt="" srcset="" />
                         <h2>Social Media Marketing</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi</p>
-                        <div className={styles.buttonBox}>
+                        <div>
                             <button>View Work</button>
                         </div>
-                    </div>
-                    <div>
+                    </section>
+                    <section>
                         <img src={capeCod} alt="" srcset="" />
                         <h2>Photography</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi</p>
@@ -33,17 +33,17 @@ export default function Services() {
                             <button>View Headshots</button>
                             <button>View Real Estate</button>
                         </div>
-                    </div>
-                    <div>
+                    </section>
+                    <section>
                         <img src={capeCod} alt="" srcset="" />
                         <h2>Video</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi  </p>
                         <div>
-                            <button className={styles.buttonBox}>View Video</button>
+                            <button>View Video</button>
                         </div>
-                    </div>
+                    </section>
                 </div>
-            </section>
+            </main>
 
         </div>
     )

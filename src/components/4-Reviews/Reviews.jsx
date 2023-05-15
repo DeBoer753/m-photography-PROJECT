@@ -7,36 +7,37 @@ import { Route, Routes, Link } from 'react-router-dom'
 // IMGS:
 
 // CSS:
-import styles from './Testimonials.module.css'
+import styles from './Reviews.module.css'
 
 // PROJECTS:
-export default function Testimonials() {
+export default function Reviews() {
     return (
         <div>
 
-            <div className={styles.testimonialsHeaderBox}>
-                <h1>Testimonials</h1>
+            <div className={styles.reviewsHeaderBox}>
+                <h1>Reviews</h1>
             </div>
 
-            <main className={styles.testimonialsMain}>
-                <div className={styles.testimonialsContent}>
+            <main className={styles.reviewsMain}>
+                <section className={styles.reviewsContent}>
                     <div className={styles.projectInfo}>
                         <h5>Moreas Construction</h5>
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
-                </div>
-                <div className={styles.testimonialsContent}>
+                </section>
+                <section className={styles.reviewsContent}>
                     <div className={styles.projectInfo}>
                         <h5>Moterra</h5>
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
-                </div>
-                <div className={styles.testimonialsContent}>
+                </section>
+                <section className={styles.reviewsContent}>
                     <div className={styles.projectInfo}>
                         <h5>Porsche Marin</h5>
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
-                </div>
+                </section>
+                <button>View More</button>
             </main>
 
         </div>

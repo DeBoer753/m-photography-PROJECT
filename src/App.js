@@ -5,7 +5,8 @@ import { useRef } from "react";
 import IntroBackground from "./components/1-IntroBackground/IntroBackground";
 import Services from "./components/2-Services/Services";
 import RecentWork from "./components/3-RecentWork/RecentWork";
-import Testimonials from "./components/4-Testimonials/Testimonials";
+import Reviews from "./components/4-Reviews/Reviews";
+import Footer from "./components/5-Footer/Footer";
 import Contact from "./components/5-Contact/Contact";
 import MyLinks from "./components/6-MyLinks/MyLinks";
 
@@ -52,7 +53,10 @@ export default function App() {
         <RecentWork />
       </section>
       <section>
-        <Testimonials />
+        <Reviews />
+      </section>
+      <section>
+        <Footer />
       </section>
       {/* <section>
         <Contact />

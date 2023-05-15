@@ -1,6 +1,5 @@
 // IMGS:
 import capeCod from '../../imgs/morningMode.png'
-import CBMediaLogo from '../../imgs/CBMedia_White.png'
 import porscheLogo from '../../imgs/Porsche-Logo.png'
 
 // CSS:
@@ -16,9 +15,9 @@ export default function RecentWork() {
             </div>
 
             <main className={styles.recentWorkMain}>
-                <div className={styles.recentWorkContent}>
+                <section className={styles.recentWorkContent}>
                     <div>
-                        <img src={capeCod} alt="" srcset="" />
+                        <img className={styles.backgroundImg} src={capeCod} alt="" srcset="" />
                         <div className={styles.imageOverlay}>
                             <h2>"insert testimonial quote review from client here"</h2>
                             <div>
@@ -32,7 +31,7 @@ export default function RecentWork() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
                 <button>View More</button>
             </main>
 

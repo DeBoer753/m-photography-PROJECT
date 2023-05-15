@@ -43,38 +43,14 @@
     /* overlay tutorial */
     position: relative;
 }
-.recentWorkContent img {
+.recentWorkContent .backgroundImg {
     position: relative;
     display: block;
     top: 0;
     left: 0;
     width: 100%;
-    /* opacity: 1;
-    transition: opacity 0.3s ease-in-out; */
+    transform: translate(0, -200px);
 }
-    /* .recentWorkContent img:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    } */
-
-/* RECENT WORK CONTENT & MAIN ----------------> */
-/* .recentWorkContent .imageOverlay {
-    border: 1px red solid;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: -1px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.6);
-    color: white;
-    opacity: 0;
-    transition: opacity 200ms ease-in-out;
-    align-self: flex-end;
-    justify-content: space-between;
-} */
 .recentWorkContent .imageOverlay {
     border: 1px red solid;
     display: flex;
@@ -148,7 +124,7 @@
     border: none;
 
     background-color: #39bff9; 
-    background-image: linear-gradient(75deg, #4abdff, #0f62ce, #167ed2, #4abdff); 
+    background-image: linear-gradient(75deg, #90ff81, #03d711, #03d711, #90ff81); 
     background-size: 300% ;
     background-position: left;
     transition: 300ms background-position ease-in-out;
