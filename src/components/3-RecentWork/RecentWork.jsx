@@ -5,7 +5,7 @@ import porscheLogo from '../../imgs/Porsche-Logo.png'
 // CSS:
 import styles from './RecentWork.module.css'
 
-// SKILLS: 
+// RECENT WORK: 
 export default function RecentWork() {
     return (
         <div>

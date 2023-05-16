@@ -2,6 +2,7 @@
 import { useRef } from "react";
 
 // COMPONENTS:
+import NavBar from "./components/0-NavBar/NavBar.jsx";
 import IntroBackground from "./components/1-IntroBackground/IntroBackground";
 import Services from "./components/2-Services/Services";
 import RecentWork from "./components/3-RecentWork/RecentWork";

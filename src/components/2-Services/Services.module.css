@@ -39,6 +39,8 @@
     padding-bottom: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    line-height: 20px;
 }
 .servicesContent section img {
     width: 100%;
@@ -46,6 +48,7 @@
 }
 .servicesContent section h2 {
     border: 1px red solid;
+    margin: 10px 0 10px 0;
 }
 .servicesContent p {
     border: 1px red solid;

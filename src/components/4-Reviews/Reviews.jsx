@@ -1,15 +1,7 @@
-// REACT:
-import React from 'react'
-import { Route, Routes, Link } from 'react-router-dom'
-
-// COMPONENTS:
-
-// IMGS:
-
 // CSS:
 import styles from './Reviews.module.css'
 
-// PROJECTS:
+// REVIEWS:
 export default function Reviews() {
     return (
         <div>
