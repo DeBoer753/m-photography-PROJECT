@@ -9,7 +9,6 @@ import RecentWork from "./components/3-RecentWork/RecentWork";
 import Reviews from "./components/4-Reviews/Reviews";
 import Footer from "./components/5-Footer/Footer";
 import Contact from "./components/5-Contact/Contact";
-import MyLinks from "./components/6-MyLinks/MyLinks";
 
 // IMGS:
 import midnightIcon from "./imgs/midnightIcon.jpg"

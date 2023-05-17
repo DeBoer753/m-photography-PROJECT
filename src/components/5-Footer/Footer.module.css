@@ -1,41 +1,62 @@
 /* FOOTER HEADER ----------------> */
 .footerHeaderBox {
+  /* border: 1px red solid; */
   background-color: rgb(0, 0, 0);
   color: white;
-  border: 1px red solid;
+  
+
   display: flex;
   flex-direction: column;
 }
+.footerHeaderBox .socials {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.footerHeaderBox .socials img {
+  width: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.footerHeaderBox .socials img:hover {
+  transform: scale(1.2);
+}
+
 .footerHeaderBox h1 {
-  color:#ffffff;
+  /* border: 1px red solid; */
+  color: #70bfff;
+  font-family: cursive;
+  text-align: center;
   background-color: rgb(0, 0, 0);
+  max-width: 1300px;
   margin: 0;
   padding: 20px 40px;
   margin: 0 auto;
-  max-width: 1300px;
-  border: 1px red solid;
-  text-align: center;
-  font-family: cursive;
 }
 .footerHeaderBox h2 {
+  /* border: 1px red solid; */
   color:#ffffff;
-  background-color: rgb(0, 0, 0);
-  margin: 0;
-  padding: 20px 40px;
-  margin: 0 auto;
-  max-width: 1300px;
-  border: 1px red solid;
   text-align: center;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(0, 0, 0);
+  max-width: 1300px;
+  margin: 0;
+  padding: 20px 40px;
+  margin: 0 auto;
 }
 .footerHeaderBox button {
-  width: 150px;
+  border: none;
+  border-radius: 20px;
+  background-color: #39bff9; 
+  color: white;
+  width: 130px;
+  height: 30px;
   margin: 5px;
   margin: 0 auto;
-  border: none;
-  color: white;
-  background-color: #39bff9; 
+  cursor: pointer;
+
   background-image: linear-gradient(75deg, #4abdff, #0f62ce, #167ed2, #4abdff); 
   background-size: 300% ;
   background-position: left;
@@ -47,11 +68,13 @@
 
 /* FOOTER MAIN ----------------> */
 .footerMain {
-  display: flex;
-  justify-content: center;
+  /* border: 1px red solid; */
   background-color: black;
   color: white;
-  border: 1px red solid;
+  padding-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
 }
 .footerMain .footerLinks {
   display: flex;
@@ -59,12 +82,12 @@
   gap: 20px;
 }
 .footerMain .footerLinks li {
+  color: rgb(255, 255, 255);
   text-decoration: none;
   list-style-type: none;
-  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 .footerMain p {
-  text-align: center;
   font-size: 10px;
+  text-align: center;
 }

@@ -1,3 +1,8 @@
+// IMGS:
+import linkedIn from '../../imgs/linkedInIcon.png'
+import instagram from '../../imgs/igIcon.png'
+import mail from '../../imgs/mailIcon.png'
+
 // CSS: 
 import styles from './Footer.module.css'
 
@@ -7,9 +12,14 @@ export default function Footer() {
         <div>
 
             <div className={styles.footerHeaderBox}>
-                <h1>Ready To Work Together?</h1>
-                <h2>Short description here to express your interest in working with your future clients</h2>
-                <button>Let's Chat</button>
+              <h1>Ready To Work Together?</h1>
+              <div className={styles.socials}>
+                <img src={linkedIn} alt="" srcset="" />
+                <img src={instagram} alt="" srcset="" />
+                <img src={mail} alt="" srcset="" />
+              </div>
+              <h2>Short description here to express your interest in working with your future clients</h2>
+              <button>Let's Chat</button>
             </div>
 
             <main className={styles.footerMain}>

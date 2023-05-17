@@ -7,7 +7,7 @@ export default function Reviews() {
         <div>
 
             <div className={styles.reviewsHeaderBox}>
-                <h1>Reviews</h1>
+                <h1>See What Others Are Saying</h1>
             </div>
 
             <main className={styles.reviewsMain}>
@@ -29,7 +29,7 @@ export default function Reviews() {
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
                 </section>
-                <button>View More</button>
+                <button>View More Reviews</button>
             </main>
 
         </div>
