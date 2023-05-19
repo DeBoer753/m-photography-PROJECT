@@ -1,12 +1,12 @@
-/* reviews HEADER ----------------> */
-.reviewsHeaderBox {
-    /* border: 1px rgb(194, 0, 165) solid; */
+/* REVIEWS HEADER ----------------> */
+/* .reviewsHeaderBox {
+    border: 1px rgb(194, 0, 165) solid;
     border-top: 5px white solid;
     background-color: rgba(0, 0, 0, 0.272);
     text-align: center;
-}
-.reviewsHeaderBox h1 {
-    /* border: 1px rgb(194, 0, 165) solid; */
+} */
+/* .reviewsHeaderBox h1 {
+    border: 1px rgb(194, 0, 165) solid;
     color:#000000;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,17 +14,40 @@
     margin: 0;
     padding: 20px 40px;
     margin: 0 auto;
-}
+} */
+
+/* REVIEWS MAIN & CONTENT----------------> */
 .reviewsMain {
     /* border: 1px rgb(194, 0, 165) solid; */
+    border-top: 5px white solid;
     border-bottom: 5px white solid;
-    background-color: rgba(0, 0, 0, 0.272);
+    background-color: rgba(252, 205, 139, 0.255);
+    /* background-image: url('/Users/myles_deboer/Desktop/Desktop 2.0/Coding/Photography/m-photo-project/src/imgs/reviewsBackgroundImage.png'); */
+    background-size: cover;
     padding: 20px 50px 50px 50px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 30px; 
+}
+.reviewsMain .reviewsHeaderBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reviewsMain .reviewsHeaderBox hr {
+    border: 0.5px rgb(0, 0, 0) solid;
+    width: 30%;
+}
+.reviewsMain h1 {
+    /* border: 1px rgb(194, 0, 165) solid; */
+    color:#000000;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1300px;
+    padding: 20px 40px;
+    margin: 0 auto;
 }
 .reviewsContent {
     background-color: rgb(255, 255, 255);

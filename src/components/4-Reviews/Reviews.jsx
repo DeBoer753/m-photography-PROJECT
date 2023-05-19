@@ -6,11 +6,16 @@ export default function Reviews() {
     return (
         <div>
 
-            <div className={styles.reviewsHeaderBox}>
+            {/* <div className={styles.reviewsHeaderBox}>
                 <h1>See What Others Are Saying</h1>
-            </div>
+            </div> */}
 
             <main className={styles.reviewsMain}>
+                <div className={styles.reviewsHeaderBox}>
+                    <hr />
+                    <h1>See What Others Are Saying</h1>
+                    <hr />
+                </div>
                 <section className={styles.reviewsContent}>
                     <div className={styles.projectInfo}>
                         <h5>Moreas Construction</h5>

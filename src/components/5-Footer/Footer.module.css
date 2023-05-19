@@ -21,6 +21,7 @@
 }
 .footerHeaderBox .socials img:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .footerHeaderBox h1 {

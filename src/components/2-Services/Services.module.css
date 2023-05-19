@@ -10,9 +10,25 @@
     color:#ffffff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
-    margin: 0;
     padding: 20px 0px;
     margin: 0 auto;
+}
+.servicesHeaderBox div {
+    /* border: 1px red solid; */
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    padding: 0 25px 0 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.servicesHeaderBox div hr {
+    border: 0.5px rgb(0, 0, 0) solid;
+    width: 31%;
+    height: 0;
 }
 .servicesHeaderBox h2 {
     /* border: 1px red solid; */
@@ -90,7 +106,8 @@
     background-color: #39bff9; 
     width: 150px;
     height: 35px;
-    margin: 5px;
+    margin: 5px 5px 10px 5px;
+    
     cursor: pointer;
 
     background-image: linear-gradient(75deg, #4abdff, #0f62ce, #167ed2, #4abdff); 
