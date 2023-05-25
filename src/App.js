@@ -1,14 +1,14 @@
 // REACT:
 import { useRef } from "react";
 
-// COMPONENTS:
-import NavBar from "./components/0-NavBar/NavBar.jsx";
-import IntroBackground from "./components/1-IntroBackground/IntroBackground";
-import Services from "./components/2-Services/Services";
-import RecentWork from "./components/3-RecentWork/RecentWork";
-import Reviews from "./components/4-Reviews/Reviews";
-import Footer from "./components/5-Footer/Footer";
-import Contact from "./components/5-Contact/Contact";
+// ROUTER:
+import { BrowserRouter as Router } from "react-router-dom";
+
+// ROUTES:
+import Home from "./routes/0-Home/Home.jsx";
+
+// COMPONENTS: 
+import NavBar2 from "./components/0.5-NavBar2/NavBar2.jsx";
 
 // IMGS:
 import midnightIcon from "./imgs/midnightIcon.jpg"
@@ -26,7 +26,8 @@ export default function App() {
   return (
     
     <main className={styles.App}>
-      <header className={styles.pageHeader}>
+
+      {/* <header className={styles.pageHeader}>
         <div className={styles.pageHeaderContent}>
           <div className={styles.logo}>
             <div onClick={scrollToHome}>Chris Blossom Media</div>
@@ -42,28 +43,14 @@ export default function App() {
             </ul>
           </nav>
         </div>
-      </header> 
+      </header>  */}
+      <Router>
+        <NavBar2 /> 
+      </Router>
       <section ref={home}> 
-        <IntroBackground />
+        <Home />
       </section>
-      <section>
-        <Services /> 
-      </section>
-      <section >
-        <RecentWork />
-      </section>
-      <section>
-        <Reviews />
-      </section>
-      <section>
-        <Footer />
-      </section>
-      {/* <section>
-        <Contact />
-      </section>
-      <section ref={contact}>
-        <MyLinks />
-      </section> */}
+
     </main>
     
   )
