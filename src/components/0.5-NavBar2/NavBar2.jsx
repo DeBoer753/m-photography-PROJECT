@@ -36,20 +36,25 @@ export default function NavBar2() {
 
   return (
     <>
+
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo'>Blossom Media</Link>
+        
+        <Link to='/' className='navbar-logo'>Chris Blossom Media</Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
+
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'><Link to='/services' className='nav-links' onClick={closeMobileMenu }>Services</Link></li>
-          <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}><Link to='/work' className='nav-links' onClick={closeMobileMenu}>Work <i className='fas fa-caret-down'/></Link></li>
+          <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}><Link to='/work' className='nav-links' onClick={closeMobileMenu }>Work <i className='fas fa-caret-down'/></Link></li>
           {dropdown && <DropDown />}
           <li className='nav-item'><Link to='/reviews' className='nav-links' onClick={closeMobileMenu }>Reviews</Link></li>
           <li className='nav-item'><Link to='/about' className='nav-links' onClick={closeMobileMenu }>About</Link></li>
           <li className='nav-item'><Link to='/contact' className='nav-links' onClick={closeMobileMenu }>Contact</Link></li>
         </ul>
+
       </nav>
+
     </>
 )
 }
