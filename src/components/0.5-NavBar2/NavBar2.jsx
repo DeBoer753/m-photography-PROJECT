@@ -37,7 +37,7 @@ export default function NavBar2() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo'>Chris Blossom Media</Link>
+        <Link to='/' className='navbar-logo'>Blossom Media</Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
