@@ -73,13 +73,15 @@
   background-color: black;
   color: white;
   padding-bottom: 20px;
-
+  
   display: flex;
   justify-content: center;
+
 }
 .footerMain .footerLinks {
   display: flex;
   flex-direction: row;
+  padding-left: 0px;
   gap: 20px;
 }
 .footerMain .footerLinks li {
@@ -87,6 +89,10 @@
   text-decoration: none;
   list-style-type: none;
   cursor: pointer;
+}
+.footerMain .footerLinks li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .footerMain p {
   font-size: 10px;

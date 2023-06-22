@@ -40,10 +40,7 @@ export default function Services() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicin et consectetur adipisicinet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi</p>
                         </div>
                         <div>
-                            <button>View Prints</button>
-                            <button>View Portraits</button>
-                            <button>View Headshots</button>
-                            <button>View Real Estate</button>
+                            <button>View Work</button>
                         </div>
                     </section>
                     <section>
@@ -53,7 +50,7 @@ export default function Services() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae  amet consectetur adipisicing elit. Repudiandae  amet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi  </p>
                         </div>
                         <div>
-                            <button>View Video</button>
+                            <button>View Work</button>
                         </div>
                     </section>
                 </div>

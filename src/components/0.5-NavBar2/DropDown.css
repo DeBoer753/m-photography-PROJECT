@@ -8,12 +8,12 @@
 }
 
 .dropdown-menu li {
-  background: #1888ff;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   cursor: pointer;
 }
 
 .dropdown-menu li:hover {
-  background: red;
+  background: rgb(173, 173, 173);
 }
 
 .dropdown-menu.clicked {

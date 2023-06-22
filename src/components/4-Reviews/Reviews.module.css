@@ -60,6 +60,9 @@
     flex-direction: row;
     align-items: center;
 }
+span {
+    font-weight: 100;
+}
 .reviewsContent p {
     font-family: cursive;
 }

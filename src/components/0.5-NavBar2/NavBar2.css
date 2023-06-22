@@ -1,3 +1,4 @@
+/* NAVBAR ----------------> */
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
@@ -7,14 +8,28 @@
   font-size: 1.2rem;
 }
 
+.logoBox {
+  width: 45%;
+}
+
 .navbar-logo {
   color: #fff;
-  justify-self: start;
+  align-self: center;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   width: 400px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+.mobileShow img {
+  width: 50px;
+  margin-top: 5px;
 }
 
 .fa-firstdraft {
@@ -31,8 +46,6 @@
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
-  
-  
 }
 
 .nav-item {
@@ -48,7 +61,7 @@
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background: rgb(173, 173, 173);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -61,11 +74,12 @@
   display: none;
 }
 
-.menu-icon {
-  display: none;
-}
 
 @media screen and (max-width: 960px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  
   .NavbarItems {
     position: relative;
   }
@@ -74,7 +88,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     position: absolute;
     top: 60px;
     left: -180%;
@@ -89,7 +103,6 @@
     transition: all 0.5s ease;
     z-index: 1;
     padding-left: 0px;
-    border: 1px red solid;
   }
 
   .nav-links {
@@ -97,25 +110,28 @@
     padding: 2rem;
     width: 100%;
     display: table;
-    border: 1px red solid;
   }
 
   .nav-links:hover {
-    background-color: #1888ff;
+    background: rgb(173, 173, 173);
     border-radius: 0;
   }
 
+  .logoBox {
+    width: 90%;
+  }
+
   .navbar-logo {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: -75px;
-    margin-left: 0;
     transform: translate(25%, 50%);
   }
 
   .menu-icon {
     display: block;
     position: absolute;
+    margin-top: 5px;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
@@ -147,7 +163,10 @@
     transition: 250ms;
   }
 
-  button {
-    display: none;
-  }
+}
+
+@media screen and (max-width: 420px) {
+.navbar-logo {
+  font-size: 22px;
+}
 }

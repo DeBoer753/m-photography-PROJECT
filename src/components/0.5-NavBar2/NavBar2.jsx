@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom'
 // COMPONENTS:
 import DropDown from './DropDown'
 
+//IMGS:
+import logoIcon from '../../imgs/CBMedia_White.png'
+
 // CSS:
 import './NavBar2.css' 
 
@@ -27,7 +30,7 @@ export default function NavBar2() {
   }
 
   const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
+    if (window.innerWidth < 960) {   
       setDropdown(false)
     } else {
       setDropdown(false)
@@ -38,16 +41,18 @@ export default function NavBar2() {
     <>
 
       <nav className='navbar'>
-        
-        <Link to='/' className='navbar-logo'>Chris Blossom Media</Link>
+
+        <div className='logoBox'>
+          <Link to='/' className='navbar-logo'>Chris Blossom Media</Link>
+        </div>
+
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
 
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'><Link to='/services' className='nav-links' onClick={closeMobileMenu }>Services</Link></li>
-          <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}><Link to='/work' className='nav-links' onClick={closeMobileMenu }>Work <i className='fas fa-caret-down'/></Link></li>
-          {dropdown && <DropDown />}
+          <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}><Link to='/work' className='nav-links' onClick={closeMobileMenu }>Work <i className='fas fa-caret-down'/></Link>{dropdown && <DropDown />}</li>
           <li className='nav-item'><Link to='/reviews' className='nav-links' onClick={closeMobileMenu }>Reviews</Link></li>
           <li className='nav-item'><Link to='/about' className='nav-links' onClick={closeMobileMenu }>About</Link></li>
           <li className='nav-item'><Link to='/contact' className='nav-links' onClick={closeMobileMenu }>Contact</Link></li>

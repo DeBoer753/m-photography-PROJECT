@@ -36,7 +36,7 @@ export default function RecentWork() {
                         </div>
                     </div>
                 </section>
-                <button>View More</button>
+                {/* <button>View More</button> */}
             </main>
 
         </div>

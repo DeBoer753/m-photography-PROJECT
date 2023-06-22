@@ -6,10 +6,6 @@ export default function Reviews() {
     return (
         <div>
 
-            {/* <div className={styles.reviewsHeaderBox}>
-                <h1>See What Others Are Saying</h1>
-            </div> */}
-
             <main className={styles.reviewsMain}>
                 <div className={styles.reviewsHeaderBox}>
                     <hr />
@@ -17,20 +13,20 @@ export default function Reviews() {
                     <hr />
                 </div>
                 <section className={styles.reviewsContent}>
-                    <div className={styles.projectInfo}>
-                        <h5>Moreas Construction</h5>
+                    <div>
+                        <h5>Moreas Construction <span> | Photography | Video</span></h5>
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
                 </section>
                 <section className={styles.reviewsContent}>
-                    <div className={styles.projectInfo}>
-                        <h5>Moterra</h5>
+                    <div>
+                        <h5>Moterra<span> | Social Media | Photography | Video</span></h5>
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
                 </section>
                 <section className={styles.reviewsContent}>
-                    <div className={styles.projectInfo}>
-                        <h5>Porsche Marin</h5>
+                    <div>
+                        <h5>Porsche Marin <span> | Photography</span></h5>
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
                 </section>

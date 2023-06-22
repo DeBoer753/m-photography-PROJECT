@@ -1,0 +1,93 @@
+/* REVIEWS HEADER ----------------> */
+.reviewsHeaderBox {
+    text-align: center;
+} 
+.reviewsHeaderBox h1 {
+    color:#000000;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1300px;
+    margin: 0;
+    padding: 20px 40px;
+    margin: 0 auto;
+} 
+.reviewsHeaderBox p {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 10px 10px 10px;
+}
+
+/* REVIEWS MAIN & CONTENT----------------> */
+.reviewsMain {
+  background-color: rgba(252, 205, 139, 0.255);
+  /* background-image: url('/Users/myles_deboer/Desktop/Desktop 2.0/Coding/Photography/m-photo-project/src/imgs/paper2Img.jpg'); */
+  background-size: cover;
+  padding: 20px 50px 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px; 
+}
+.reviewsMain .reviewsHeaderBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviewsMain h1 {
+  /* border: 1px rgb(194, 0, 165) solid; */
+  color:#000000;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 1300px;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+.reviewsContent {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.299);
+  max-width: 1300px;
+  padding: 20px 10px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+span {
+  font-weight: 100;
+}
+.reviewsContent p {
+  font-family: cursive;
+}
+.reviewsMain button {
+  border: none;
+  background-color: #39bff9; 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 17px;
+  width: 190px;
+  border-radius: 20px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+
+  background-image: linear-gradient(75deg, #ffc34a, #fe892f,  #fe892f, #ffc34a); 
+  background-size: 300% ;
+  background-position: left;
+  transition: 300ms background-position ease-in-out;
+}
+.reviewsMain button:hover {
+  background-position: right;
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 844px) {
+
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 467px) {
+
+}
