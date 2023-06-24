@@ -6,6 +6,9 @@
   flex-direction: column;
   align-items: center;
 }
+.banner {
+  width: 100%;
+}
 .bannerAndIntro h1 {
   color:#000000;
   text-align: center;
@@ -141,8 +144,6 @@
   .servicesContent button:hover {
       background-position: right;
   }
-
-
 
 @media only screen and (min-width: 280px) and (max-width: 1103px) {
 

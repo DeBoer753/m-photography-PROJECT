@@ -1,3 +1,8 @@
+/* BANNER AND INTRO ----------------> */
+.banner {
+  width: 100%;
+}
+
 /* REVIEWS HEADER ----------------> */
 .reviewsHeaderBox {
     text-align: center;
@@ -19,7 +24,7 @@
 
 /* REVIEWS MAIN & CONTENT----------------> */
 .reviewsMain {
-  background-color: rgba(252, 205, 139, 0.255);
+  background-color: rgb(242, 242, 242);
   /* background-image: url('/Users/myles_deboer/Desktop/Desktop 2.0/Coding/Photography/m-photo-project/src/imgs/paper2Img.jpg'); */
   background-size: cover;
   padding: 20px 50px 50px 50px;

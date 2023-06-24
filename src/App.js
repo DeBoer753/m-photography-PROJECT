@@ -1,3 +1,9 @@
+// READY TO PUBLISH NOTES:
+// - Switch to HTTPS instead of HTTP (may need to get an SSL certificate)
+// - Host on S3, netlify, cloud player (choose)
+// - ADA compliance
+
+
 // REACT:
 import { React, useRef } from "react";
 

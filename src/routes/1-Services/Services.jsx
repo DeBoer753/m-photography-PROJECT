@@ -1,5 +1,5 @@
 // REACT
-import react from 'react'
+import { Link } from 'react-router-dom'
 
 // COMPONENTS 
 import Footer from '../../components/5-Footer/Footer'
@@ -8,6 +8,7 @@ import Footer from '../../components/5-Footer/Footer'
 import styles from './Services.module.css'
 
 // IMGS:
+import banner from '../../imgs/bannerTemplateCBM.jpg'
 import capeCod from '../../imgs/morningMode.png'
 import socialMedia from '../../imgs/socialImg.png'
 import photography from '../../imgs/gearImg.png'
@@ -15,12 +16,15 @@ import video from '../../imgs/droneImg.png'
 
 // SERVICES:
 export default function Services() {
+  window.scrollTo(0,0)
+  
   return (
 
     <div>
 
+      <img className={styles.banner} src={banner} alt="" srcset="" />
+      
       <div className={styles.bannerAndIntro}>
-        <img src="" alt="" srcset="" />
         <h1>Services</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloremque molestiae maxime sunt debitis, nemo consequatur et harum quae tenetur laboriosam cumque modi aut aspernatur recusandae vitae dolor deleniti architecto!</p>
       </div>
@@ -34,7 +38,7 @@ export default function Services() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandaetur adipisicing elit. Rep amet consectetur adipisicing elit. Repudiandaeudiandae tur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi</p>
                 </div>
                 <div>
-                    <button>View Work</button>
+                  <Link to='/socialmedia'><button>View Work</button></Link>
                 </div>
             </section>
             <section>
@@ -44,7 +48,7 @@ export default function Services() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicin et consectetur adipisicinet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi</p>
                 </div>
                 <div>
-                    <button>View Work</button>
+                  <Link to='/photography'><button>View Work</button></Link>
                 </div>
             </section>
             <section>
@@ -54,7 +58,7 @@ export default function Services() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae  amet consectetur adipisicing elit. Repudiandae  amet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi  </p>
                 </div>
                 <div>
-                    <button>View Work</button>
+                  <Link to='/video'><button>View Work</button></Link>
                 </div>
             </section>
         </div>

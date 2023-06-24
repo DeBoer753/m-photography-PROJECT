@@ -17,12 +17,12 @@ export default function Footer() {
           <div className={styles.footerHeaderBox}>
             <h1>Ready To Work Together?</h1>
             <div className={styles.socials}>
-              <img src={linkedIn} alt="" srcset="" />
-              <img src={instagram} alt="" srcset="" />
-              <img src={mail} alt="" srcset="" />
+              <Link to='https://www.linkedin.com/in/chris-blossom-3913347b/' target='_blank'><img src={linkedIn} alt="" srcset="" /></Link>
+              <Link to='https://www.instagram.com/cricketbphoto/?hl=en' target='_blank'><img src={instagram} alt="" srcset="" /></Link>
+              <Link to='/contact' target='_blank'><img src={mail} alt="" srcset="" /></Link>
             </div>
             <h2>Short description here to express your interest in working with your future clients</h2>
-            <button>Let's Chat</button>
+            <button><Link to='/contact'>Let's Chat</Link></button>
           </div>
 
           <main className={styles.footerMain}>

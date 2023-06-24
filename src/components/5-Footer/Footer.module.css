@@ -66,6 +66,10 @@
   .footerHeaderBox button:hover {
       background-position: right;
   }
+.footerHeaderBox button a {
+  text-decoration: none;
+  color: white;
+}
 
 /* FOOTER MAIN ----------------> */
 .footerMain {

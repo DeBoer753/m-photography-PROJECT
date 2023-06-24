@@ -1,0 +1,36 @@
+/* BANNER AND INTRO ----------------> */
+.banner {
+  width: 100%;
+}
+
+/* ABOUT HEADER ----------------> */
+.aboutHeaderBox {
+  text-align: center;
+} 
+.aboutHeaderBox h1 {
+  color:#000000;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 1300px;
+  margin: 0;
+  padding: 20px 40px;
+  margin: 0 auto;
+} 
+.aboutHeaderBox p {
+max-width: 1200px;
+text-align: center;
+margin: 0 10px 10px 10px;
+}
+
+/* ABOUT MAIN ----------------> */
+.aboutMain {
+  background-color: rgb(242, 242, 242);
+  /* background-image: url('/Users/myles_deboer/Desktop/Desktop 2.0/Coding/Photography/m-photo-project/src/imgs/paper2Img.jpg'); */
+  background-size: cover;
+  padding: 20px 50px 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px; 
+}

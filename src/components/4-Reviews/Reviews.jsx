@@ -1,3 +1,6 @@
+// REACT:
+import { Link } from 'react-router-dom'
+
 // CSS:
 import styles from './Reviews.module.css'
 
@@ -30,7 +33,7 @@ export default function Reviews() {
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum in, optio labore distinctio culpa quaerat, dolorem sit placeat perferendis officia dolore, dignissimos nostrum quidem deserunt architecto quia qui sapiente"</p>
                     </div>
                 </section>
-                <button>View More Reviews</button>
+                <Link to='reviews'><button>View More Reviews</button></Link>
             </main>
 
         </div>

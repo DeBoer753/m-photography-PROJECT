@@ -1,3 +1,6 @@
+// REACT:
+import { Link } from 'react-router-dom'
+
 // IMGS:
 import capeCod from '../../imgs/morningMode.png'
 import socialMedia from '../../imgs/socialImg.png'
@@ -30,7 +33,7 @@ export default function Services() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandaetur adipisicing elit. Rep amet consectetur adipisicing elit. Repudiandaeudiandae tur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi</p>
                         </div>
                         <div>
-                            <button>View Work</button>
+                            <Link to='/socialmedia'><button>View Work</button></Link>
                         </div>
                     </section>
                     <section>
@@ -40,7 +43,7 @@ export default function Services() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicin et consectetur adipisicinet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi</p>
                         </div>
                         <div>
-                            <button>View Work</button>
+                            <Link to='/photography'><button>View Work</button></Link>
                         </div>
                     </section>
                     <section>
@@ -50,7 +53,7 @@ export default function Services() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae  amet consectetur adipisicing elit. Repudiandae  amet consectetur adipisicing elit. Repudiandae quasi elit. Repudiandae quasi  </p>
                         </div>
                         <div>
-                            <button>View Work</button>
+                            <Link to='/video'><button>View Work</button></Link>
                         </div>
                     </section>
                 </div>
