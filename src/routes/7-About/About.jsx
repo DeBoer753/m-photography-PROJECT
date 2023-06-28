@@ -9,9 +9,12 @@ import styles from './About.module.css'
 
 // IMGS:
 import banner from '../../imgs/banner3TemplateCBM.jpg'
+import photo from '../../imgs/gearImg.png'
 
 // ABOUT:
 export default function About() {
+  window.scrollTo(0,0)
+
   return (
     <>
 
@@ -23,15 +26,13 @@ export default function About() {
           <h1>About Chris</h1>
         </div>
 
-        <div>
-          <img src="" alt="" srcset="" />
+        <div className={styles.aboutContent}>
+          <img src={photo} alt="" srcset="" />
           <div>
-            <p></p>
-            <p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, iure delectus. Ratione sint molestiae accusamus minima ab, voluptatem doloribus asperiores accusantium at, dolor hic. Ipsa natus earum quam ipsum eum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, iure delectus. Ratione sint molestiae accusamus minima ab, voluptatem doloribus asperiores accusantium at, dolor hic. Ipsa natus earum quam ipsum eum!</p>
           </div>
         </div>
-
-
 
       </main>
 

@@ -1,0 +1,75 @@
+/* BANNER AND INTRO ----------------> */
+.banner {
+  width: 100%;
+}
+
+/* CONTACT HEADER ----------------> */
+.contactHeaderBox {
+  /* border: 1px red solid; */
+  text-align: center;
+} 
+.contactHeaderBox h1 {
+  color:#000000;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 1300px;
+  margin: 0;
+  padding: 20px 40px;
+  margin: 0 auto;
+} 
+
+/* CONTACT MAIN ----------------> */
+.contactMain {
+  background-color: rgb(242, 242, 242);
+  /* background-image: url('/Users/myles_deboer/Desktop/Desktop 2.0/Coding/Photography/m-photo-project/src/imgs/paper2Img.jpg'); */
+  background-size: cover;
+  padding: 20px 50px 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px; 
+}
+
+/* CONTACT CONTENT ----------------> */
+.contactContent {
+  /* border: 1px red solid; */
+  margin: 0 auto;
+  /* margin-right: 50px;
+  margin-left: 50px; */
+  max-width: 1300px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* CONTACT CONTENT INFO BOX ----------------> */
+.contactContentInfoBox {
+  /* border: 1px purple dashed; */
+  width: 100%;
+}
+.contactContentInfoBox h2 {
+  margin-top: 0;
+}
+
+/* CONTACT CONTENT MSG BOX ----------------> */
+.contactContentMsgBox {
+  border: 1px green dashed;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contactContentMsgBox input {
+  border: 1px black solid;
+  border-radius: 10px;
+  width: 99%;
+  height: 40px;
+}
+.contactContentMsgBox textarea {
+  /* max-width: 500px; */
+  border-radius: 10px;
+  height: 100%;
+}

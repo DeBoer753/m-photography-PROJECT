@@ -34,3 +34,14 @@ margin: 0 10px 10px 10px;
   justify-content: space-evenly;
   gap: 30px; 
 }
+
+/* ABOUT CONTENT ----------------> */
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.aboutContent img {
+  width: 50%;
+}
