@@ -37,6 +37,9 @@ margin: 0 10px 10px 10px;
 
 /* ABOUT CONTENT ----------------> */
 .aboutContent {
+  max-width: 1300px;
+  margin: 0 auto;
+
   display: flex;
   flex-direction: row;
   gap: 30px;
