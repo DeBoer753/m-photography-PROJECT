@@ -1,0 +1,95 @@
+/* BANNER AND INTRO ----------------> */
+.banner {
+  width: 100%;
+}
+
+/* WORK HEADER ----------------> */
+.workHeaderBox {
+  text-align: center;
+} 
+.workHeaderBox h1 {
+  color:#000000;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 1300px;
+  margin: 0;
+  padding: 20px 40px;
+  margin: 0 auto;
+} 
+.workHeaderBox p {
+max-width: 1200px;
+text-align: center;
+margin: 0 10px 10px 10px;
+}
+
+/* WORK BUTTON BOX ----------------> */
+.workButtonBox {
+  margin: 0 auto;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  
+  display: flex;
+  gap: 30px;
+}
+.workButtonBox button {
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+
+  background-image: linear-gradient(75deg, #4abdff, #0f62ce, #167ed2, #4abdff); 
+  background-size: 300% ;
+  background-position: left;
+  transition: 300ms background-position ease-in-out;
+}
+  .workButtonBox button:hover {
+    background-position: right;
+  }
+
+/* WORK MAIN ----------------> */
+.workMain {
+  background-color: rgb(242, 242, 242);
+  /* background-image: url('/Users/myles_deboer/Desktop/Desktop 2.0/Coding/Photography/m-photo-project/src/imgs/paper2Img.jpg'); */
+  background-size: cover;
+  padding: 20px 50px 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px; 
+}
+
+/* WORK CONTENT ----------------> */
+.workContent {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.workContent img {
+  width: 50%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1103px) {
+
+  .workButtonBox button {
+    
+  }
+  .workContent {
+    align-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .workContent img {
+    width: 100%;
+  }
+  .workContent p {
+    text-align: center;
+  }
+}
